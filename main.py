@@ -9,9 +9,12 @@ import textwrap
 # Put desired file path here
 file_path ="images/algebra.jpg"
 
-#Check file size
+#Check file size and format
 print 'The size of the file is:'
 print os.path.getsize(file_path)
+filename, file_extension = os.path.splitext(file_path)
+print 'The format of the file is:'
+print  file_extension
 
 #Send request to Mathpix server
 image_uri = "data:image/jpg;base64," + base64.b64encode(open(file_path, "rb").read())
