@@ -7,9 +7,9 @@ Python 2.7
 Local image:
 ![algebra](images/algebra.jpg)
 Output image:
-![algebra](output/algebra_output.jpg)
+![algebra](output/algebra_output.PNG)
 ## Examples 2
 Local image:
 ![cases_hw](images/cases_hw.jpg)
 Output image:
-![cases_hw](output/cases_hw_output.jpg)
+![cases_hw](output/cases_hw_output.PNG)
