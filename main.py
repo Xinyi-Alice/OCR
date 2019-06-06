@@ -1,5 +1,6 @@
 #Environment python2.7
 import sys
+import os
 import base64
 import requests
 import json
@@ -9,13 +10,8 @@ import textwrap
 file_path ="images/algebra.jpg"
 
 #Check file size
-def getSize(fileobject):
-    fileobject.seek(0,2) # move the cursor to the end of the file
-    size = fileobject.tell()
-    return size
-file = open(file_path, 'rb')
 print 'The size of the file is:'
-print getSize(file)
+print os.path.getsize(file_path)
 
 #Send request to Mathpix server
 image_uri = "data:image/jpg;base64," + base64.b64encode(open(file_path, "rb").read())
