@@ -3,6 +3,13 @@ This code is a Python wrapper to grab LaTex information from a local images usin
 # Usage
 ## Running Environment
 Python 2.7
-## Examples
+## Examples 1
 Local image:
-![Screenshot](screenshot.png)
+![algebra](images/algebra.jpg)
+Output image:
+![algebra](output/algebra_output.jpg)
+## Examples 2
+Local image:
+![cases_hw](images/cases_hw.jpg)
+Output image:
+![cases_hw](output/cases_hw_output.jpg)
